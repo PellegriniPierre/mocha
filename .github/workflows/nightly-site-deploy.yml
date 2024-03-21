@@ -2,9 +2,7 @@
 # This updates the list of supporters
 
 name: Nightly mochajs.org Deploy
-on:
-  schedule:
-    - cron: '0 0 * * *'
+
 jobs:
   deploy:
     runs-on: ubuntu-latest
